@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.meme-app{
+    height: 85vh;
+    width: 50vw;
+    border: 1px solid black;
+    margin: 0 auto;
+    align-items: center;
+}
+
+/*
+!! Nav Css
+*/
+
+.navbar{
+    height: 100px;
+    width: 50vw;
+    background-color:  #100C08;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 5px 5px grey;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.navbar h2, h3{
+    color: rgb(209, 125, 7);
+    padding-right: 10px;
+}
+
+.nav-image{
+    max-height: 100px;
+}
+
+/*
+!! Input texts Css
+*/
+
+.meme-texts{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 30px 30px;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    margin-bottom: 20px;
+    grid-gap: 5px;
+}
+
+.meme-image{
+    position: relative;
+    height: 250px;
+    width: 25vw;
+    margin: 0 auto; 
+}
+
+.meme{
+    height: 230px;
+    max-width: 100%;
+}
+
+.top-text{
+    position: absolute;
+    top: 0;
+    color: white;
+    text-transform: uppercase;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 5px;
+    margin: 0px;
+    text-align: center;
+    text-shadow:2px 2px 0 #000,
+                -2px -2px 0 #000,
+                2px -2px 0 #000,
+                -2px 2px 0 #000,
+                0 2px 0 #000,
+                2px 0 0 #000,
+                0 -2px 0 #000,
+                -2px 0 0 #000,
+                2px 2px 5px #000;
+}
+
+.bottom-text{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    text-transform: uppercase;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-shadow:2px 2px 0 #000,
+                -2px -2px 0 #000,
+                2px -2px 0 #000,
+                -2px 2px 0 #000,
+                0 2px 0 #000,
+                2px 0 0 #000,
+                0 -2px 0 #000,
+                -2px 0 0 #000,
+                2px 2px 5px #000;
+}
